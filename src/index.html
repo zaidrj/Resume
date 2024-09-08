@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Interactive Resume</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="resume-container">
+    <!-- Header Section -->
+    <div class="header">
+      <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+      <h1 class="name">Zaid Rehan</h1>
+      <p class="contact">Email: Zaidrehan545@gmail.com | Phone: 123-456-7890</p>
+    </div>
+
+    <!-- Education Section -->
+    <div class="section">
+      <h2>
+        Education 
+        <button class="toggle-section" id="toggle-education">&#9660</button>
+      </h2>
+      <ul id="education-section">
+        <li>Generative applied cloud engineer - PIAIC (2023-2024)</li>
+        <li>Generative applied cloud engineer - GIAIC (2023-2024)</li>
+      </ul>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="section">
+      <h2>
+        Skills 
+        <button class="toggle-section" id="toggle-skills">&#9660</button>
+      </h2>
+      <ul id="skills-section">
+        <li>JavaScript</li>
+        <li>TypeScript</li>
+        <li>HTML & Tailwind CSS</li>
+        <li>Next js</li>
+      </ul>
+    </div>
+
+    <!-- Work Experience Section -->
+    <div class="section">
+      <h2>
+        Work Experience
+        <button class="toggle-section" id="toggle-experience">&#9660</button> 
+      </h2>
+      
+      <ul id="experience-section">
+        <li>PIAIC</li>
+        <li>GIAIC</li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
